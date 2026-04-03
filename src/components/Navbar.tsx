@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 
 const navLinks = [
@@ -10,11 +10,22 @@ const navLinks = [
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-pink-300/30">
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      scrolled
+        ? 'bg-white/90 backdrop-blur-sm border-b border-pink-300/30 shadow-sm'
+        : 'bg-transparent border-b border-transparent'
+    }`}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="text-brown-700 font-serif text-lg tracking-widest uppercase">
+        <span className={`font-serif text-lg tracking-widest uppercase transition-colors duration-300 ${scrolled ? 'text-brown-700' : 'text-brown-900'}`}>
           Concerto de Páscoa
         </span>
 

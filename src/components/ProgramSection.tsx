@@ -27,8 +27,8 @@ export default function ProgramSection() {
       <div className="max-w-3xl mx-auto px-6">
         {/* Section header */}
         <div className="text-center mb-16">
-          <p className="text-pink-300 tracking-[0.3em] text-xs uppercase mb-3">Programação Musical</p>
-          <h2 className="font-serif text-4xl md:text-5xl text-brown-900 mb-6">Programa da Tarde</h2>
+          <p className="text-pink-300 tracking-[0.3em] text-xs uppercase mb-3">Concerto</p>
+          <h2 className="font-serif text-4xl md:text-5xl text-brown-900 mb-6">Programação Musical</h2>
           <div className="w-16 h-px bg-pink-300 mx-auto" />
         </div>
 
