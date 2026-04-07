@@ -24,7 +24,7 @@ export default function Navbar() {
         ? 'bg-white/90 backdrop-blur-sm border-b border-pink-300/30 shadow-sm'
         : 'bg-transparent border-b border-transparent'
     }`}>
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="w-full px-6 py-4 flex items-center justify-between">
         <span className={`font-serif text-lg tracking-widest uppercase transition-colors duration-300 ${scrolled ? 'text-brown-700' : 'text-brown-900'}`}>
           Concerto de Páscoa
         </span>

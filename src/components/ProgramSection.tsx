@@ -28,7 +28,7 @@ export default function ProgramSection() {
         {/* Section header */}
         <div className="text-center mb-16">
           <p className="text-pink-300 tracking-[0.3em] text-xs uppercase mb-3">Concerto</p>
-          <h2 className="font-serif text-4xl md:text-5xl text-brown-900 mb-6">Programação Musical</h2>
+          <h2 className="font-serif text-4xl md:text-5xl text-[#a76f61] mb-6">Programação Musical</h2>
           <div className="w-16 h-px bg-pink-300 mx-auto" />
         </div>
 
@@ -49,10 +49,10 @@ export default function ProgramSection() {
 
               {/* Title & composer */}
               <div className="flex flex-1 items-baseline justify-between gap-4 min-w-0">
-                <span className="font-serif text-brown-900 text-base leading-snug">
+                <span className="font-serif text-[#a76f61] text-base leading-snug">
                   {title}
                 </span>
-                <span className="text-brown-700/50 text-xs tracking-wide whitespace-nowrap">
+                <span className="text-[#a76f61]/80 text-xs tracking-wide whitespace-nowrap">
                   {composer}
                 </span>
               </div>

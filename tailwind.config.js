@@ -14,6 +14,7 @@ export default {
           400: '#ffaabf',
         },
         brown: {
+          300: '#a76f61',
           700: '#6A3E37',
           800: '#4e2d27',
           900: '#3a1f1a',
