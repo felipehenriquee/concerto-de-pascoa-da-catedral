@@ -12,7 +12,7 @@ export default function HeroSection() {
         src={bgImage}
         alt=""
         aria-hidden="true"
-        className="absolute inset-0 w-full h-full object-cover object-[88%_center] md:object-[72%_center] lg:object-right pointer-events-none select-none"
+        className="absolute inset-0 w-full h-full object-cover object-[88%_70%] md:object-[72%_70%] lg:object-[right_0%] pointer-events-none select-none"
       />
 
       {/* Gradient overlay: strong on left for text legibility, fades out toward the cross */}
