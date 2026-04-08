@@ -6,8 +6,8 @@ import ecofor from "../assets/images/patrocinio/4.ecofor.svg";
 import shalom from "../assets/images/patrocinio/5.shalom.svg";
 
 const sponsors = [
-  { src: sesc,     size: 'h-28 md:h-36' },
-  { src: dibra,    size: 'h-28 md:h-36' },
+  { src: sesc,     size: 'h-40 md:h-48' },
+  { src: dibra,    size: 'h-40 md:h-48' },
   { src: marquise, size: 'h-12 md:h-16' },
   { src: ecofor,   size: 'h-12 md:h-16' },
   { src: shalom,   size: 'h-12 md:h-16' },

@@ -20,11 +20,11 @@ export default function HeroSection() {
 
       {/* Content — left-aligned on desktop, centered on mobile */}
       <div className="relative z-10 w-full px-6 md:px-14 lg:px-24">
-        <div className="max-w-lg text-center md:text-left rounded-xl px-6 py-8 md:px-0 md:py-0 bg-white/50 backdrop-blur-[2px] md:bg-transparent md:backdrop-blur-none">
+        <div className="max-w-lg text-center md:text-left rounded-xl px-6 py-8 md:px-0 md:py-0 bg-white/30 backdrop-blur-[2px] md:bg-transparent md:backdrop-blur-none">
           <p className="text-pink-600 tracking-[0.4em] text-xs uppercase mb-4">
             Uma tarde de fé e música
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold text-brown-900 leading-tight mb-6">
+          <h1 className="font-serif text-[36px] md:text-7xl font-bold text-brown-900 leading-tight mb-6">
             Concerto de
             <br />
             <span className="text-pink-400 font-bold">Páscoa da Catedral</span>
